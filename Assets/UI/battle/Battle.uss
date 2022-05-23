@@ -1,0 +1,16 @@
+VisualElement {
+}
+
+.container {
+    width: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.battlecontainer {
+    align-items: center;
+    width: 900px;
+    height: 200px;
+    background-color: rgba(59, 46, 185, 255);
+}

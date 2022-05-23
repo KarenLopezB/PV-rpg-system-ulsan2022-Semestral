@@ -1,23 +1,23 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="GameUI.uss" />
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
     <ui:VisualElement name="container" class="container" style="bottom: 20px;">
         <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px;">
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Lisa1.jpg?fileID=2800000&amp;guid=e01cf3fffbfdcda4cbb853e782eb157f&amp;type=3#Lisa1&apos;);" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" title="Health" class="health" style="font-size: 12px; color: rgba(255, 255, 255, 255);" />
                 <uie:ProgressBar name="mana" />
             </ui:VisualElement>
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Maggie1.jpg?fileID=2800000&amp;guid=dfa1d2a5b220b5e4ca77609a329e1374&amp;type=3#Maggie1&apos;);" />
+                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="-unity-background-image-tint-color: rgba(255, 255, 255, 255);" />
+                <uie:ProgressBar name="health" title="Health" class="health" />
                 <uie:ProgressBar name="mana" />
             </ui:VisualElement>
-            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
+            <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Bart1.jpg?fileID=2800000&amp;guid=938d5d95ff8d13e4aacb04e2a2b47c4c&amp;type=3#Bart1&apos;);" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" title="Health" class="health" />
                 <uie:ProgressBar name="mana" />
             </ui:VisualElement>
         </ui:VisualElement>

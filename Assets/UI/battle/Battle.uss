@@ -4,19 +4,25 @@ VisualElement {
 .container {
     width: 100%;
     align-items: center;
-    position: absolute;
+    position: relative;
     bottom: 15px;
+    height: auto;
+    top: 800px;
 }
 
 .battlecontainer {
     align-items: stretch;
     width: 400px;
-    height: 100px;
+    height: auto;
     background-color: rgba(103, 50, 144, 0.66);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    flex-direction: row;
+    bottom: auto;
+    top: auto;
+    position: absolute;
 }
 
 .characterinfo {
@@ -51,9 +57,12 @@ VisualElement {
 
 .name {
     width: 30%;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .bar {
     width: 80%;
+}
+
+.container2 {
 }

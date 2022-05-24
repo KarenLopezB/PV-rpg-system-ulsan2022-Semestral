@@ -5,17 +5,20 @@
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Lisa1.jpg?fileID=2800000&amp;guid=e01cf3fffbfdcda4cbb853e782eb157f&amp;type=3#Lisa1&apos;);" />
                 <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="top: 5px; -unity-font-style: bold;" />
-                <uie:ProgressBar name="health" title="Health" class="health" style="font-size: 12px; color: rgb(0, 0, 0); height: 25%; top: 10px; background-color: rgb(83, 166, 212); -unity-font-style: bold; position: relative;" />
+                <uie:ProgressBar name="health" title="Health" low-value="60" class="health heart1" style="font-size: 12px; color: rgb(0, 0, 0); height: auto; top: 10px; background-color: rgb(63, 33, 67); -unity-font-style: bold; position: relative;" />
+                <uie:ProgressBar name="mana" title="Mana" low-value="20" class="health mana1" style="font-size: 12px; color: rgb(0, 0, 0); height: auto; top: 10px; background-color: rgb(83, 166, 212); -unity-font-style: bold; position: relative;" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Maggie1.jpg?fileID=2800000&amp;guid=dfa1d2a5b220b5e4ca77609a329e1374&amp;type=3#Maggie1&apos;);" />
                 <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="-unity-background-image-tint-color: rgb(255, 255, 255); top: 5px; -unity-font-style: bold;" />
-                <uie:ProgressBar name="health" title="Health" class="health" style="height: 25%; background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px; bottom: auto; position: relative; top: 10px; color: rgb(0, 0, 0);" />
+                <uie:ProgressBar name="health" title="Health" low-value="80" class="health" style="height: auto; background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px; bottom: auto; position: relative; top: 10px; color: rgb(0, 0, 0);" />
+                <uie:ProgressBar name="mana" title="Mana" high-value="100" low-value="40" class="health" style="height: auto; background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px; bottom: auto; position: relative; top: 10px; color: rgb(0, 0, 0);" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 300px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprites/Bart1.jpg?fileID=2800000&amp;guid=938d5d95ff8d13e4aacb04e2a2b47c4c&amp;type=3#Bart1&apos;);" />
                 <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" style="top: 5px; -unity-font-style: bold;" />
-                <uie:ProgressBar name="health" title="Health" class="health" style="height: 25%; top: 10px; color: rgb(0, 0, 0); background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px;" />
+                <uie:ProgressBar name="health" title="Health" low-value="40" class="health" style="height: auto; top: 10px; color: rgb(0, 0, 0); background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px;" />
+                <uie:ProgressBar name="mana" title="Health" low-value="15" class="health" style="height: auto; top: 10px; color: rgb(0, 0, 0); background-color: rgb(83, 166, 212); -unity-font-style: bold; font-size: 12px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

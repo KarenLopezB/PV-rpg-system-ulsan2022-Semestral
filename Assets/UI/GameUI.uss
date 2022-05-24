@@ -3,7 +3,7 @@
     background-color: rgba(92, 33, 103, 0.6);
     position: relative;
     bottom: 0;
-    width: 90%;
+    width: 60%;
     flex-grow: 1;
     flex-direction: row;
     justify-content: center;
@@ -47,9 +47,12 @@
     bottom: 20px;
 }
 
-.health {
-    background-color: rgb(0, 0, 0);
+.mana1 {
+    background-color: rgba(255, 60, 1, 255);
+    position: relative;
 }
 
-.unity-progress-bar {
+.heart1 {
+    background-color: rgba(211, 229, 16, 255);
+    width: auto;
 }

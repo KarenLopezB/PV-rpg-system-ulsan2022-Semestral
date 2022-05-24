@@ -62,7 +62,12 @@ VisualElement {
 
 .bar {
     width: 80%;
+    background-color: rgba(45, 45, 45, 255);
 }
 
 .container2 {
+}
+
+.health1 {
+    background-color: rgba(45, 45, 45, 255);
 }

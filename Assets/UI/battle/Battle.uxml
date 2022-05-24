@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/UI/battle/Battle.uss?fileID=7433441132597879392&amp;guid=e2a538a018b15f34cb0656e8373c99a8&amp;type=3#Battle" />
     <ui:VisualElement name="container" class="container" style="width: 100%; height: auto; bottom: 0; position: relative; flex-direction: column; scale: 2 2;">
         <ui:VisualElement name="battlecontainer" class="battlecontainer" style="flex-direction: row; align-items: center; height: auto; top: auto; width: 400px; bottom: auto;">
-            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 50%; align-items: stretch; position: relative;">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.3%; align-items: stretch; position: relative;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="-unity-slice-left: 10; -unity-slice-top: 10; background-image: url(&apos;project://database/Assets/Textures/Sprites/dragon1.JPG?fileID=2800000&amp;guid=d9be3400736b78e47b2020990c0c2b24&amp;type=3#dragon1&apos;); width: 80px;" />
                 </ui:VisualElement>
@@ -13,7 +13,18 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
-            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 50%; align-items: stretch; position: relative;">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.3%; align-items: stretch; position: relative;">
+                <ui:VisualElement name="spriteContainer" class="spriteContainer">
+                    <ui:VisualElement name="sprite" class="sprite" style="-unity-slice-left: 10; -unity-slice-top: 10; width: 80px; background-image: url(&apos;project://database/Assets/Textures/Sprites/dragon2.JPG?fileID=2800000&amp;guid=284368737c7af6644b0c2e9e6971d702&amp;type=3#dragon2&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statscontainer" class="statcontainer">
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Dragon 2" display-tooltip-when-elided="true" name="Maggie" class="name" style="-unity-font-style: bold;" />
+                        <ui:ProgressBar title="Health" class="bar" style="width: 90%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.3%; align-items: stretch; position: relative;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="-unity-slice-left: 10; -unity-slice-top: 10; width: 80px; background-image: url(&apos;project://database/Assets/Textures/Sprites/dragon2.JPG?fileID=2800000&amp;guid=284368737c7af6644b0c2e9e6971d702&amp;type=3#dragon2&apos;);" />
                 </ui:VisualElement>
